@@ -37,9 +37,9 @@
             lblStudentProfile.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblStudentProfile.Location = new Point(33, 37);
             lblStudentProfile.Name = "lblStudentProfile";
-            lblStudentProfile.Size = new Size(494, 32);
+            lblStudentProfile.Size = new Size(423, 32);
             lblStudentProfile.TabIndex = 0;
-            lblStudentProfile.Text = "Student Profile - Aelea Kaelyn M De Guzman";
+            lblStudentProfile.Text = "Student Profile - GitHub Beginner Lab.";
             // 
             // Form1
             // 
