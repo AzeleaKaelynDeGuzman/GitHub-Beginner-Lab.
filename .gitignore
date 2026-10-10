@@ -1,3 +1,5 @@
 .vs/
 bin/
 obj/
+/StudentProfile/Rooms/Rooms.dbmdl
+/StudentProfile/Rooms/Rooms.jfm

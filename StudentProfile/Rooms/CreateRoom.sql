@@ -1,0 +1,8 @@
+﻿CREATE TABLE CreateRoom
+(
+	RoomID INT IDENTITY(1,1) PRIMARY KEY,
+    RoomNumber VARCHAR(10) NOT NULL,
+    RoomType VARCHAR(50) NOT NULL,
+    Price DECIMAL(10,2) NOT NULL,
+    Status VARCHAR(55) NOT NULL
+)

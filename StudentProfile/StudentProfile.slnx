@@ -1,3 +1,12 @@
 <Solution>
+  <Project Path="BusinessLogic/BusinessLogic.csproj" Id="d0702255-8c9e-4d75-9956-885ce6987817" />
+  <Project Path="Database/Database.csproj" Id="9d4b8b9c-384b-4ff5-892e-761e0ba82d22" />
+  <Project Path="Model/Model.csproj" Id="76533f48-cd0d-414f-a9af-22c2f156b18b" />
+  <Project Path="Rooms/Rooms.sqlproj" Id="ac341bcf-8a49-4a60-ba45-c3b8488e24e9">
+    <Build />
+    <Deploy />
+  </Project>
   <Project Path="StudentProfile/StudentProfile.csproj" />
+  <Project Path="StudentRoom.App/StudentRoom.App.csproj" Id="1d4d690c-cd53-48f2-8d16-7ce08eaf8016" />
+  <Project Path="UI/UI.csproj" Id="4157882d-ed88-402d-8d3b-1b19ed1a82f1" />
 </Solution>
