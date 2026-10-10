@@ -1,7 +1,7 @@
 using BusinessLogic.Controller;
 using Model;
 
-namespace StudentProfile
+namespace StudentRoom.App
 {
     public partial class Form1 : Form
     {
@@ -9,8 +9,8 @@ namespace StudentProfile
         public Form1()
         {
             InitializeComponent();
-        }
 
+        }
         private void LoadRooms()
         {
             dgvRooms.DataSource = controller.GetRooms();
@@ -18,16 +18,18 @@ namespace StudentProfile
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            cbRoomType.Items.Add("Single");
-            cbRoomType.Items.Add("Double");
-            cbRoomType.Items.Add("Suite");
-
+ 
             cbStatus.Items.Add("Available");
             cbStatus.Items.Add("Occupied");
             cbStatus.Items.Add("Maintenance");
 
+            cbRoomType.Items.Add("Single");
+            cbRoomType.Items.Add("Double");
+            cbRoomType.Items.Add("Suite");
+
             LoadRooms();
         }
+
         private void btnCreate_Click(object sender, EventArgs e)
         {
             try
@@ -58,8 +60,6 @@ namespace StudentProfile
             {
                 MessageBox.Show(ex.Message);
             }
-
-            this.Load += Form1_Load;
         }
     }
 }
